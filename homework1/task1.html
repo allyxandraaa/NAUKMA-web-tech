@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Форма додавання викладача</title>
+  </head>
+  <body>
+    <header>
+      <h1>Форма для додавання викладача</h1>
+    </header>
+
+    <main>
+      <article>
+        <form action="https://example.com" method="post" target="_blank">
+          <fieldset>
+            <legend>Дані викладача</legend>
+
+            <section>
+              <h2>Основна інформація</h2>
+
+              <label for="fullName">Повне ім'я:</label><br />
+              <input
+                type="text"
+                id="fullName"
+                name="fullName"
+                placeholder="Франко Іван Якович"
+                autocomplete="on"
+                required
+              /><br />
+
+              <fieldset>
+                <legend>Оберіть стать:</legend>
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="male"
+                  required
+                />
+                <label for="male">Чоловік</label><br />
+
+                <input type="radio" id="female" name="gender" value="female" />
+                <label for="female">Жінка</label><br />
+
+                <input type="radio" id="other" name="gender" value="other" />
+                <label for="other">Інше</label>
+              </fieldset>
+              <br />
+
+              <label for="birthdate">Дата народження:</label><br />
+              <input
+                type="date"
+                id="birthdate"
+                name="birthdate"
+                autocomplete="on"
+                required
+              />
+            </section>
+
+            <section>
+              <h2>Контактні дані</h2>
+
+              <label for="email">Email:</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="example@gmail.com"
+                autocomplete="on"
+                required
+              /><br />
+
+              <label for="phoneNumber">Телефон:</label><br />
+              <input
+                type="tel"
+                id="phoneNumber"
+                name="phoneNumber"
+                placeholder="+380 (XX) XXX XX XX"
+                autocomplete="on"
+                required
+              /><br />
+
+              <label for="bgColor">Бажаний колір фону:</label><br />
+              <input type="color" id="bgColor" name="bgColor" />
+            </section>
+
+            <section>
+              <h2>Локація</h2>
+
+              <label for="country">Країна:</label><br />
+              <input
+                type="text"
+                id="country"
+                name="country"
+                placeholder="Україна"
+                autocomplete="on"
+                required
+              /><br />
+
+              <label for="city">Місто:</label><br />
+              <input
+                type="text"
+                id="city"
+                name="city"
+                placeholder="Київ"
+                autocomplete="on"
+                required
+              />
+            </section>
+
+            <section>
+              <h2>Коментар</h2>
+
+              <label for="comment">Додатковий коментар:</label><br />
+              <textarea
+                id="comment"
+                name="comment"
+                rows="4"
+                cols="50"
+              ></textarea>
+            </section>
+
+            <br />
+            <input type="submit" value="Відправити" />
+          </fieldset>
+        </form>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Усі права захищено.</p>
+    </footer>
+  </body>
+</html>
