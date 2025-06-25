@@ -1,0 +1,222 @@
+[
+    {
+      "id": 1,
+      "title": "Імпреза",
+      "category": "М'ясна піца",
+      "description": "Бекон, салямі, куриця, сир моцарелла, сир рокфорд, ананаси, томатна паста, петрушка",
+      "image": "./style/images/pizza_1.jpg",
+      "alt_text": "Піца Імпреза",
+      "label": "Нова",
+      "label_class": "new-label",
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 370,
+          "price": 99
+        },
+        {
+          "size": 40,
+          "weight": 660,
+          "price": 169
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "BBQ",
+      "category": "М'ясна піца",
+      "description": "Мисливські ковбаски, соус Барбекю, соус томатний, сир моцарелла, цибуля, соус Часниковий",
+      "image": "./style/images/pizza_2.jpg",
+      "alt_text": "Піца BBQ",
+      "label": "Популярна",
+      "label_class": "popular-label",
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 390,
+          "price": 105
+        },
+        {
+          "size": 40,
+          "weight": 690,
+          "price": 180
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Гаваї",
+      "category": "З ананасами",
+      "description": "Куриця, ананаси, сир моцарелла, соус томатний, кукурудза, петрушка",
+      "image": "./style/images/pizza_3.jpg",
+      "alt_text": "Піца Гаваї",
+      "label": null,
+      "label_class": null,
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 380,
+          "price": 95
+        },
+        {
+          "size": 40,
+          "weight": 670,
+          "price": 160
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Мисливська",
+      "category": "З грибами",
+      "description": "Мисливські ковбаски, сир моцарелла, гриби, цибуля, томатна паста, маслини",
+      "image": "./style/images/pizza_4.jpg",
+      "alt_text": "Піца Мисливська",
+      "label": null,
+      "label_class": null,
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 385,
+          "price": 100
+        },
+        {
+          "size": 40,
+          "weight": 680,
+          "price": 175
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Чотири Сири",
+      "category": "Вегетаріанська піца",
+      "description": "Сир моцарелла, сир фета, сир пармезан, сир рокфорд, помідори, базилік, оливкова олія",
+      "image": "./style/images/pizza_5.jpg",
+      "alt_text": "Піца Чотири Сири",
+      "label": "Нова",
+      "label_class": "new-label",
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 350,
+          "price": 110
+        },
+        {
+          "size": 40,
+          "weight": 630,
+          "price": 190
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Пепероні",
+      "category": "М'ясна піца",
+      "description": "Ковбаса пепероні, сир моцарелла, томатна паста, орегано",
+      "image": "./style/images/pizza_6.jpg",
+      "alt_text": "Піца Пепероні",
+      "label": null,
+      "label_class": null,
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 360,
+          "price": 98
+        },
+        {
+          "size": 40,
+          "weight": 650,
+          "price": 170
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Карбонара",
+      "category": "М'ясна піца",
+      "description": "Бекон, сир моцарелла, вершки, яйце, пармезан, чорний перець",
+      "image": "./style/images/pizza_7.jpg",
+      "alt_text": "Піца Карбонара",
+      "label": "Популярна",
+      "label_class": "popular-label",
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 395,
+          "price": 102
+        },
+        {
+          "size": 40,
+          "weight": 700,
+          "price": 185
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Маргарита",
+      "category": "Вегетаріанська піца",
+      "description": "Сир моцарелла, томатна паста, помідори, базилік",
+      "image": "./style/images/pizza_8.jpg",
+      "alt_text": "Піца Маргарита",
+      "label": null,
+      "label_class": null,
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 300,
+          "price": 85
+        },
+        {
+          "size": 40,
+          "weight": 550,
+          "price": 145
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Цезар",
+      "category": "З куркою",
+      "description": "Куриця, сир моцарелла, листя салату, соус Цезар, помідори чері, сухарики",
+      "image": "./style/images/pizza_9.jpg",
+      "alt_text": "Піца Цезар",
+      "label": "Нова",
+      "label_class": "new-label",
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 380,
+          "price": 100
+        },
+        {
+          "size": 40,
+          "weight": 670,
+          "price": 175
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Морська Фантазія",
+      "category": "З морепродуктами",
+      "description": "Креветки, мідії, кальмари, сир моцарелла, вершковий соус, лимон",
+      "image": "./style/images/pizza_9.jpg",
+      "alt_text": "Піца Морська Фантазія",
+      "label": "Нова",
+      "label_class": "new-label",
+      "sizes": [
+        {
+          "size": 30,
+          "weight": 410,
+          "price": 130
+        },
+        {
+          "size": 40,
+          "weight": 720,
+          "price": 220
+        }
+      ]
+    }
+  ]
