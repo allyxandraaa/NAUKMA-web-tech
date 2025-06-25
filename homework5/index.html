@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Піца (Дуже великий екран)</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="top-nav">
+        <div class="banner-container">
+          <div class="banner">
+            <a href="#" class="nav-item pizza-kma">PIZZA<br />KMA</a>
+          </div>
+          <div class="banner-bottom">
+            <img src="./style/images/discount.svg" alt="Низ банера" />
+          </div>
+        </div>
+        <div class="nav-items">
+          <div class="nav-item-row">
+            <span class="nav-item phone-number">(044) 222 5 222</span>
+            <span class="nav-item work-hours"
+              >24 години/ 7 днів на тиждень
+            </span>
+            <span class="nav-item delivery-info"
+              >Безкоштовна доставка піци</span
+            >
+            <button class="btn-login">Увійти</button>
+          </div>
+          <div class="nav-item-row">
+            <span class="nav-item pizza">Піца</span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main-content-area">
+      <div class="container main-layout">
+        <section class="pizza-menu-section">
+          <div class="pizza-menu-categories">
+            <div class="section-title-wrapper">
+              <h1 class="section-title">Усі піци</h1>
+              <span class="pizza-total-amount">8</span>
+            </div>
+            <nav class="pizza-filter-nav">
+              <ul>
+                <li>
+                  <button class="filter-btn active" data-filter="Усі">
+                    Усі
+                  </button>
+                </li>
+                <li>
+                  <button class="filter-btn" data-filter="М'ясна піца">
+                    М'ясні
+                  </button>
+                </li>
+                <li>
+                  <button class="filter-btn" data-filter="З ананасами">
+                    З ананасами
+                  </button>
+                </li>
+                <li>
+                  <button class="filter-btn" data-filter="З грибами">
+                    З грибами
+                  </button>
+                </li>
+                <li>
+                  <button class="filter-btn" data-filter="З морепродуктами">
+                    З морепродуктами
+                  </button>
+                </li>
+                <li>
+                  <button class="filter-btn" data-filter="Вегетаріанська піца">
+                    Вега
+                  </button>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+          <div class="pizza-contents" id="pizza-container"></div>
+
+          <div class="discount-banner-container">
+            <div class="discount-banner">
+              <span class="discount-message">ЦЬОГО ТИЖНЯ НА ВСЕ</span>
+              <span class="discount-value"> -20% </span>
+            </div>
+            <div class="banner-upper">
+              <img src="./style/images/discount.svg" alt="Низ банера" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <aside class="order-summary-aside">
+      <div class="order-header">
+        <h2 class="aside-header">Замовлення</h2>
+        <span class="pizza-total-amount" id="total-count">0</span>
+        <button class="clear-order-btn">Очистити замовлення</button>
+      </div>
+      <div class="order-items-list" id="order-items-list"></div>
+      <div class="order-total">
+        <div class="total-amount">
+          <p class="total-amount-message">Сума замовлення</p>
+          <p id="total-sum">0 грн</p>
+        </div>
+        <div class="total-amount-button">
+          <button class="btn-place-order">Замовити</button>
+        </div>
+      </div>
+    </aside>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
